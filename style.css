@@ -1,0 +1,109 @@
+:root {
+  --primary-color: #6c63ff;
+  --secondary-color: #f5f2fe;
+  --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+}
+
+h1,
+h2,
+h3 {
+  text-align: center;
+}
+#about-me {
+  font-size: 96px;
+}
+h1 {
+  font-size: 54px;
+ 
+}
+
+h2 {
+  font-size: 48px;
+  padding-top: 80px;
+}
+
+h3 {
+  font-size: 24px;
+  opacity: 0.7;
+  text-align:center;
+}
+
+p {
+  border-radius: 4px;
+  font-size: 18px;
+  line-height: 1.8;
+ 
+}
+
+.header {
+  font-size: 36px;
+  opacity: 0.8;
+  margin-top:40px;
+  background-color: rgb(243, 234, 234);
+  padding: 40px 20px;
+}
+
+.portfolio-explanation {
+  font-size: 18px;
+  line-height: 1.5;
+  text-align: center;
+  justify-content: center;
+  font-weight: 600;
+
+}
+
+.navigation-links {
+  display: flex;
+  margin-top: 40px;
+  justify-content: center;
+}
+
+.navigation-links a {
+  margin: 20px;
+  border-radius: 4px;
+  padding: 20px 15px;
+  text-decoration: none;
+  text-transform: capitalize;
+}
+
+.contact-link {
+  background: var(--primary-color);
+  box-shadow: var(--box-shadow);
+  color: white;
+}
+
+.about-link {
+  color: var(--primary-color);
+  border: 1px solid var(--primary-color);
+}
+
+.homepage-link {
+  color: var(--primary-color);
+  text-align: center;
+  display: block;
+}
+
+
+.ewelina_picture {
+  width: 300px;
+  height: auto;
+  border-radius: 50%;
+  box-shadow: var(--box-shadow);
+}
+
+
+.email-link {
+  display: flex;
+  justify-content: center;
+  color: var(--primary-color);
+  font-size: 28px;
+  text-decoration: none;
+}
+
+.email-link:hover {
+  text-decoration: underline;
+}
+
+.line-height {
+  line-height:1.6;
+}
