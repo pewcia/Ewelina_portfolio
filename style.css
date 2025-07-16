@@ -12,14 +12,19 @@ h3 {
 #about-me {
   font-size: 96px;
 }
+
 h1 {
   font-size: 54px;
+  margin-top: 75px;
+
  
 }
 
 h2 {
-  font-size: 48px;
-  padding-top: 80px;
+  font-size: 24px;
+  padding-top: 5px;
+  opacity: 0.8;
+  text-align: center;
 }
 
 h3 {
@@ -33,6 +38,26 @@ p {
   font-size: 18px;
   line-height: 1.8;
  
+}
+
+@media (max-width: 768px) {
+  h1{
+    font-size: 30px !important;
+  }
+  h2 {
+    font-size: 28px !important;
+  }
+  h3 {
+    font-size: 18px !important;
+  }
+  p {
+    font-size: 14px !important;
+  }
+  .mobile-small {
+    font-size: 14px !important;
+    line-height: 1.6 !important;
+    margin-top:20px; 
+  }
 }
 
 .header {
