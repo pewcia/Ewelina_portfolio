@@ -45,7 +45,7 @@ p {
     font-size: 30px !important;
   }
   h2 {
-    font-size: 28px !important;
+    font-size: 24px !important;
   }
   h3 {
     font-size: 18px !important;
@@ -60,6 +60,10 @@ p {
   }
   .email-link{
     font-size: 14px !important;
+  }
+  .about-me{
+    font-size: 16px !important;
+    line-height: 1 !important;
   }
 }
 
@@ -92,10 +96,16 @@ p {
 .email-link:hover {
   text-decoration: underline;
 }
+.nav-link.active {
+  font-weight: bold;
+}
 
 .footer-color {
   background-color: var(--secondary-color) !important;
 font-weight: 400;
+border:#1b1a1a 1px solid;
+border-radius: 5px;
+
 }
 
 .galery-courses {
