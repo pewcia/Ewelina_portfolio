@@ -1,6 +1,6 @@
 :root {
   --primary-color: #6c63ff;
-  --secondary-color: #f5f2fe;
+  --secondary-color: #F5EEEE;
   --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
 }
 
@@ -68,45 +68,6 @@ p {
   padding: 40px 20px;
 }
 
-.portfolio-explanation {
-  font-size: 18px;
-  line-height: 1.5;
-  text-align: center;
-  justify-content: center;
-  font-weight: 600;
-
-}
-
-.navigation-links {
-  display: flex;
-  margin-top: 40px;
-  justify-content: center;
-}
-
-.navigation-links a {
-  margin: 20px;
-  border-radius: 4px;
-  padding: 20px 15px;
-  text-decoration: none;
-  text-transform: capitalize;
-}
-
-.contact-link {
-  background: var(--primary-color);
-  box-shadow: var(--box-shadow);
-  color: white;
-}
-
-.about-link {
-  color: var(--primary-color);
-  border: 1px solid var(--primary-color);
-}
-
-.homepage-link {
-  color: var(--primary-color);
-  text-align: center;
-  display: block;
-}
 
 
 .ewelina_picture {
@@ -122,13 +83,36 @@ p {
   justify-content: center;
   color: var(--primary-color);
   font-size: 28px;
-  text-decoration: none;
+  text-decoration: none
 }
 
 .email-link:hover {
   text-decoration: underline;
 }
 
-.line-height {
-  line-height:1.6;
+.footer-color {
+  background-color: var(--secondary-color) !important;
+font-weight: 400;
 }
+
+.galery-courses {
+  display: flex;
+  gap: 20px;
+}
+
+.galery-courses img {
+  width:100%;
+  height:auto;
+  border-radius: 5px;
+  border: 1px solid #1b1a1a;
+  margin:60px;
+}
+
+.nav-item active {
+  font-weight: bold;
+}
+
+h2 #contact {
+  
+}
+
