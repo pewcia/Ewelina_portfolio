@@ -58,6 +58,9 @@ p {
     line-height: 1.6 !important;
     margin-top:20px; 
   }
+  .email-link{
+    font-size: 14px !important;
+  }
 }
 
 .header {
