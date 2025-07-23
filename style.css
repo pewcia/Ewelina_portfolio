@@ -44,32 +44,9 @@ p {
  
 }
 
-@media (max-width: 768px) {
-  h1{
-    font-size: 30px !important;
-  }
-  h2 {
-    font-size: 24px !important;
-  }
-  h3 {
-    font-size: 18px !important;
-  }
-  p {
-    font-size: 14px !important;
-  }
-  .mobile-small {
-    font-size: 14px !important;
-    line-height: 1.6 !important;
-    margin-top:20px; 
-  }
-  .email-link{
-    font-size: 14px !important;
-  }
-  .about-me{
-    font-size: 16px !important;
-    line-height: 1 !important;
-  }
-}
+
+
+
 
 .header {
   font-size: 36px;
@@ -154,3 +131,57 @@ h2 #contact {
 #connect {
   font-size: 22px;
 }
+
+.btn-footer {
+  background-color: #ffffff;
+
+}
+
+.connect-buttons {
+  display: flex;
+  justify-content:center;
+  gap: 40px;
+  margin-top:20px;
+  margin-bottom: 30px;
+}
+
+.connect-img {
+  max-width: 100%;
+  height: auto;
+  max-height:400px;
+}
+
+@media (max-width: 768px) {
+  h1{
+    font-size: 30px !important;
+  }
+  h2 {
+    font-size: 24px !important;
+  }
+  h3 {
+    font-size: 18px !important;
+  }
+  p {
+    font-size: 14px !important;
+  }
+  .mobile-small {
+    font-size: 14px !important;
+    line-height: 1.6 !important;
+    margin-top:20px; 
+  }
+  .email-link{
+    font-size: 14px !important;
+  }
+  .about-me{
+    font-size: 16px !important;
+    line-height: 1 !important;
+  }
+
+  .connect-img {
+    max-height: 200px;
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
+  }
+}
+
